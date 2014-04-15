@@ -19,6 +19,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+    NSLog(@"1");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
